@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<signal date="Wed Jul 20 23:48:22 CEST 2016" source="robotrade">
+		<strategy_number>300000407</strategy_number>
+		<order_id>34461711</order_id><symbol>DJ30</symbol>
+		<order_open_time>2016.07.20 13:36:39</order_open_time>
+		<order_type>short - sell</order_type>
+		<order_size>0.1</order_size>
+		<order_contract_size>10.0</order_contract_size>
+		<order_open_price>18496</order_open_price>
+		<order_stop_loss>0</order_stop_loss>
+		<order_take_profit>0</order_take_profit>
+		<user>3000</user>
+	</signal>
