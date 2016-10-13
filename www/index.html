@@ -7,14 +7,13 @@
 <title>Hello World</title>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/backgroundService-3.1.0.js"></script>
-<script type="text/javascript" src="js/myService-3.1.0.js"></script>
+<script type="text/javascript" src="js/push.js"></script>
 <script type="text/javascript" src="js/PushNotification.js"></script>
 <script type="text/javascript">
 document.addEventListener("deviceready",onDeviceReady,false);
 function onDeviceReady(){
 console.log("Device Ready")
-var push = PushNotification.init({ "android": {"senderID": "947267015933"},
+var push = PushNotification.init({ "android": {"senderID": "721393051486"},
 "ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 
 push.on('registration', function(data) {
@@ -39,9 +38,8 @@ console.log(e.message);
 </script>
 </head>
 <body>
-<h1>Notificatore push</h1>
-GCM ID del cellulare: <br/>
+<h1>Notificatore</h1>
+GCM ID : <br/>
 <p id="gcm_id"></p>
-  
 </body>
 </html>
