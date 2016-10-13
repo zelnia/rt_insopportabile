@@ -120,7 +120,4 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~5.1.1" />
-	<feature name="BackgroundServicePlugin">
-      <param name="android-package" value="com.red_folder.phonegap.plugin.backgroundservice.BackgroundServicePlugin"/>
-    </feature>
 </widget>
